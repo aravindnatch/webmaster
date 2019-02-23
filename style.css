@@ -278,6 +278,13 @@ section
 /*********************************
 3. Header
 *********************************/
+.curves {
+	border-radius: 20px;
+}
+.curves2 {
+	border-radius: 10px;
+}
+
 
 .header
 {
@@ -676,6 +683,7 @@ section
 .home_link
 {
 	margin-top: 21px;
+
 }
 .home_link a
 {
@@ -684,6 +692,7 @@ section
 	padding-right: 12px;
 	font-size: 24px;
 	color: #FFFFFF;
+	border-radius: 20px;
 }
 .home_link a::before
 {
@@ -738,6 +747,9 @@ section
 {
 	max-width: 100%;
 }
+img {
+	border-radius: 20px;
+}
 .image_overlay
 {
 	position: absolute;
@@ -766,12 +778,14 @@ section
 	width: calc(100% + 58px);
 	left: -58px;
 	height: 100%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 .featured_album_player
 {
 	width: 100%;
-	border: solid 1px #03A9F4;
 	background: #333232;
+	border-radius: 20px;
 }
 .featured_album_title_bar
 {
@@ -849,6 +863,7 @@ section
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
+	border-radius: 20px;
 }
 .jp-playlist li:hover::before,
 #jp_container_1.jp-state-playing .jp-playlist li.jp-playlist-current::before
@@ -935,6 +950,8 @@ section
 	margin-top: 27px;
 	padding-left: 25px;
 	padding-right: 22px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 .jp-details > div
 {
@@ -1009,6 +1026,8 @@ section
 {
 	width: 100%;
 	background: #ececec;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 }
 .player_controls .jp-interface
 {
