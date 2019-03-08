@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400";
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400|Open+Sans:800|Roboto|Rubik|Ubuntu";
 /* colors */
 /* tab setting */
 /* breakpoints */
@@ -8,8 +8,12 @@ html {
   height: 100%;
 }
 
+.icon-pie-chart:before {
+    content: "\e99a";
+  }
+
 body {
-  background: #efefef;
+  background: whitesmoke;
   color: #333;
   font-family: "Raleway";
   height: 100%;
@@ -22,6 +26,13 @@ body h1 {
   margin: 0;
 }
 
+.customh1 {
+    color: #428BFF;
+    font-weight: 300;
+    padding: 40px 0 20px 0;
+    margin: 0;
+}
+
 .tabs {
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -31,7 +42,7 @@ body h1 {
   padding: 50px;
   padding-bottom: 80px;
   width: 70%;
-  height: 250px;
+  height: 750px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   border-radius: 5px;
   min-width: 240px;
@@ -41,11 +52,23 @@ body h1 {
 }
 .tabs .content section h2,
 .tabs ul li label {
-  font-family: "Montserrat";
+  font-family: "Open Sans";
   font-weight: bold;
   font-size: 18px;
   color: #428BFF;
 }
+.tabss {
+    font-family: "Open Sans";
+    font-size: 15px;
+  }
+.tabss1 {
+    font-family: "Open Sans";
+    font-size: 40px;
+  }  
+.roboto {
+    font-family: "Ubuntu";
+    font-size: 20px;
+  } 
 .tabs ul {
   list-style-type: none;
   padding-left: 0;
@@ -98,7 +121,7 @@ body h1 {
 }
 .tabs .slider {
   position: relative;
-  width: 25%;
+  width: 33%;
   transition: all 0.33s cubic-bezier(0.38, 0.8, 0.32, 1.07);
 }
 .tabs .slider .indicator {
